@@ -1,0 +1,201 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(89, 89, 89); 
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.mobile{
+    height: 500px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 23px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.screen{
+    height: 480px;
+    width: 244px;
+    background: url(https://i.pinimg.com/originals/40/05/7f/40057f4e14d9f1e13515500b097537a2.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 19px;
+    margin: 8px auto 0;
+    
+}
+.noch{
+    width: 100px;
+    height: 19px;
+    border-radius: 0 0 9px 9px;
+    background-color: black;
+    margin: 0px auto;
+    
+}
+.navigation{
+    margin: -15px 7px 0;
+    font-weight: 600;
+    color: white;
+    font-size: 13px;
+    opacity: 87%;
+}
+.nav-icons{
+    float: right;
+    
+}
+.nav-logo{
+    height: 12px;
+    padding-left: 2px;
+}
+
+/* Header Icon */
+.header-icon{
+    width: 220px;
+    height: 86px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 8px auto 0;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    justify-content: space-around;
+    padding: 5px;
+    
+}
+
+/* google */
+.searchBar{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    align-items: center;
+    
+    
+
+}
+.searchBar img{
+    height: 18px;
+    padding-right: 5px;
+    margin-left: 10px;
+}
+.searchBar input{
+    border: none;
+    background: none;
+}
+*:focus {
+    outline: none;
+}
+
+/* part */
+
+.function{
+    display: flex;
+    justify-content: space-between;
+}
+.func img{
+    height: 22px;
+    margin-top: 6px;
+}
+.func{
+    height: 50px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-top: 6px;
+    display: flexbox;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+
+
+/* google */
+
+/* weather */
+.weather, .place{
+     display: flex;
+     justify-content: center;
+}
+.info{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.fa-cloud{
+    font-size: 25px;
+}
+.place img{
+    height: 9px;
+    padding-right: 2px;
+}
+.place{
+    color: white;
+    font-size: 10px;
+}
+/* weather */
+
+/* mid-app */
+.mid-apps{
+    width: 236px;
+    height: 60px; 
+    margin: 140px auto 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.parent-app{
+    text-align: center;
+}
+.app-name{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 0px 1px black;
+}
+/* mid app */
+.nav-dot{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+.circle{
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 100%;
+    margin: 6px;
+    border: 1px solid rgb(211, 211, 211);
+}
+.active{
+    background-color: rgba(255, 255, 255, 17) !important;
+}
+/* Bottom */
+
+.bottom-nav{
+    width: 236px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 8px auto 0;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bottom-app{
+    height: 40px;
+}
+
+
+/* Bottom */
+
+
